@@ -4,7 +4,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
-import PostProperty from './pages/PostProperty';
+// import PostProperty from './pages/PropertyDetails';
+import PropertyDetails from './pages/PropertyDetails';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Route path="/about" element={<About />}/>
       <Route path='/login' element={<Login />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/PropertyDetails" element={<PropertyDetails />} />
     </Routes>
 
     

@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Intro from '../components/Intro'
 import Filter from '../components/Filter'
+import HouseCards from '../components/HouseCards'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     </div>
     <Intro />
     <Filter />
+    <HouseCards />
     </>
   )
 }
